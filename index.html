@@ -13,9 +13,9 @@
     
 </head>
 <body>
-    <a id="github-forkme" href="http://github.com/medialize/jQuery-contextMenu"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+    <a id="github-forkme" href="http://github.com/addyosmani/jQuery-contextMenu"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
     <div id="container">
-    <h1><a href="http://github.com/addyosmani/jQuery-contextMenu">jQuery contextMenu</a></h1>
+    <h1><a href="http://github.com/addyosmani/jQuery-contextMenu">jQuery contextMenu (fork)</a></h1>
     
     <ul class="menu">
         <li class="active"><a href="index.html">About</a></li>
@@ -24,6 +24,10 @@
     </ul>
 
     <p>
+        This is a <strong>fork</strong> of the <a href="https://github.com/medialize/jQuery-contextMenu">jQuery-contextMenu</a> plugin which includes a patch to support the native contextmenu support found in the Firefox nightlies (FF8) as well as a test to check if native support for contextmenu is available. Given that FF are the only browser to currently support the HTML5 contextmenu natively, I feel it's important that a polyfill handle it as well as the original specs.
+    </p>
+    <p>
+        <p><strong>Original project summary</strong></p>
         The contextMenu Plugin was designed for web applications in need of menus on a possibly large amount of objects.
         Unlike implementations as <a href="http://abeautifulsite.net/blog/2008/09/jquery-context-menu-plugin/" target="_blank">a beautiful site's</a> or <a href="http://www.trendskitchens.co.nz/jquery/contextmenu/" target="_blank">trendskitchens'</a> this contextMenu treats the menu as the primary object. That means, that a single menu is defined that can be used by multiple objects. Unlike the mentioned plugins, contextMenu doesn't need to bind itself to triggering objects. This allows injecting and removing triggers without having to re-initialize or update contextMenu.
     </p>
