@@ -137,5 +137,5 @@ ul.plain-list > li {
 }
 .menu-1 { background-color: green; }
 .menu-2 { background-color: blue; }
-.menu-injected { background-color: magenta; }
+.menu-injected { background-color: #666; }
 .menu-2.context-menu-disabled { background-color: red; }

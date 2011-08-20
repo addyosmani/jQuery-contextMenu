@@ -6,7 +6,7 @@
     <title>jQuery contextMenu Plugin Demo</title>
     <meta name="description" content="simple contextMenu generator for interactive web applications based on jQuery" />
 
-    <script src="jquery-1.6.1.min.js" type="text/javascript"></script>
+    <script src="jquery-1.6.2.min.js" type="text/javascript"></script>
     <script src="jquery.ui.position.js" type="text/javascript"></script>
     <script src="jquery.contextMenu.js" type="text/javascript"></script>
     <link href="jquery.contextMenu.css" rel="stylesheet" type="text/css" />
@@ -16,7 +16,7 @@
 <body>
     <a id="github-forkme" href="http://github.com/medialize/jQuery-contextMenu"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
     <div id="container">
-    <h1><a href="http://github.com/medialize/jQuery-contextMenu">jQuery contextMenu</a></h1>
+    <h1><a href="http://github.com/addyosmani/jQuery-contextMenu">jQuery contextMenu</a></h1>
     
     <ul class="menu">
         <li><a href="index.html">About</a></li>
@@ -462,17 +462,17 @@
           </menu>
         </menu>
         
-        <menu id="html5polyfill" type="context" style="display:none">
-          <command label="rotate" onclick="alert('rotate')">
-          <command label="resize" onclick="alert('resize')">
+  
+        <menu type="context" id="html5polyfill">
+          <menuitem label="rotate" onclick="rotate()" icon="http://cdn1.iconfinder.com/data/icons/silk2/arrow_rotate_clockwise.png"></menuitem>
+          <menuitem label="resize" onclick="resize()" icon="http://cdn3.iconfinder.com/data/icons/fugue/icon/image-resize.png"></menuitem>
           <menu label="share">
-            <command label="twitter" onclick="alert('twitter')">
-            <hr>
-            <command label="facebook" onclick="alert('facebook')">
-            <hr>
-            <label>foo bar<input type="text" name="foo"></label>
+            <menuitem label="twitter" onclick="alert('foo')"></menuitem>
+            <menuitem label="facebook" onclick="alert('bar')"></menuitem>
           </menu>
         </menu>
+
+
     </div>
     </div>
 </body>
